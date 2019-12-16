@@ -1,6 +1,37 @@
-const title = document.getElementById("title");
+const title = document.querySelector("#title");
+
+const BASE_COLOR = "rgb(52, 73, 94)";
+const OTHER_COLOR = "#000000";
+
+function handleClick() {
+  const currentColor = title.style.color;
+  if (currentColor === BASE_COLOR) {
+    title.style.color = OTHER_COLOR;
+    console.log("change1");
+  } else {
+    title.style.color = BASE_COLOR;
+    console.log("change2");
+  }
+}
+
+function init() {
+  title.style.color = BASE_COLOR;
+  title.addEventListener("mouseenter", handleClick); // 자바스크립트 이벤트 찾기 : javscript dom event mdn
+}
+init();
+
+/* function handleResize() {
+  console.log("I have been resized");
+}
+
+window.addEventListener("resize", handleResize); */
+
+/* const title = document.querySelector("#title"); // document.getElementById("title");
 
 title.innerHTML = "Hi! From JS";
+title.style.color = "red";
+console.dir(title);
+document.title = "I own you now"; */
 
 /* function sayHello(name, age) {
   return `Hello ${name} you are ${age} years`;
