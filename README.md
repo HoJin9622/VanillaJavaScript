@@ -87,10 +87,14 @@ fatty:true
 
 console.log(myInfo.gender); \*/
 // console << object, log << key,
-==========================================================================
-local storage
+
+# local storage
+
 자바스크립트의 작은 정보들을 저장해주는 공간
 
 localstorage.getItem("name", value); - localstorage에 값을 불러옴.
 localstorage.setItem("name"); - localstorage에 값을 저장.
-==========================================================================
+
+# CSS
+
+transition: color 0.5s ease-in-out; - 컬러가 변경될때 0.5초 동안 서서히 바뀜
