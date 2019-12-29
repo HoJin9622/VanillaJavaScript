@@ -30,6 +30,14 @@ JSON.stringify는 자바스크립트 object를 string으로 바꿔준다.
 
 JSON.parse는 자바스크립트 string을 object로 바꿔준다.
 
+# filter 함수
+
+filter는 array의 모든 아이템을 통해 함수를 실행하고, true인 아이템들만 가지고 새로운 array를 만든다.
+
+# forEach
+
+object.forEach(function) 을 실행하면 object에 대한 모든 것에 대해 function을 실행한다.
+
 # CSS
 
 transition: color 0.5s ease-in-out; - 컬러가 변경될때 0.5초 동안 서서히 바뀜
