@@ -1,10 +1,43 @@
 # VanillaJavaScript
 
-const title = document.querySelector("#title");
+# local storage
 
-const CLICKED_CLASS = "clicked";
+자바스크립트의 작은 정보들을 저장해주는 공간
 
-function handleClick() {
+localstorage.getItem("name", value); - localstorage에 값을 불러옴.
+
+localstorage.setItem("name"); - localstorage에 값을 저장.
+
+자바스크립트는 local storage에 있는 모든 데이터를 string으로 저장.
+
+# JSON
+
+JavaScript Object Notation 의 준말
+
+데이터를 전달할 때, 자바스크립트가 그걸 다룰 수 있도록 object로 바꿔주는 기능.
+
+object와 string의 변환.
+
+# JSON.stringify(object)
+
+    JSON.sringify(object)
+
+JSON.stringify는 자바스크립트 object를 string으로 바꿔준다.
+
+# JSON.parse(string)
+
+    JSON.parse(string)
+
+JSON.parse는 자바스크립트 string을 object로 바꿔준다.
+
+# CSS
+
+transition: color 0.5s ease-in-out; - 컬러가 변경될때 0.5초 동안 서서히 바뀜
+
+    const title = document.querySelector("#title");
+    const CLICKED_CLASS = "clicked";
+
+function handleClick() {  
 title.classList.toggle(CLICKED_CLASS); // toggle 함수는 클래스를 체크해 있으면 add, 없으면 remove 해준다.
 // title.classList.add(CLICKED_CLASS);
 // title.classList.remove(CLICKED_CLASS);
@@ -87,14 +120,3 @@ fatty:true
 
 console.log(myInfo.gender); \*/
 // console << object, log << key,
-
-# local storage
-
-자바스크립트의 작은 정보들을 저장해주는 공간
-
-localstorage.getItem("name", value); - localstorage에 값을 불러옴.
-localstorage.setItem("name"); - localstorage에 값을 저장.
-
-# CSS
-
-transition: color 0.5s ease-in-out; - 컬러가 변경될때 0.5초 동안 서서히 바뀜
