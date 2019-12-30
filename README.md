@@ -58,6 +58,15 @@ value 만큼의 값을 랜덤으로 준다.
 
 원하는 tag에 value 클래스를 추가한다.
 
+# 자바스크립트 객체 팁
+
+    const coordsObj = {
+        latitude,
+        longitude
+     };
+
+객체의 필드와 값의 이름이 같으면 위와 같이 작성 가능
+
 # CSS
 
 transition: color 0.5s ease-in-out; - 컬러가 변경될때 0.5초 동안 서서히 바뀜
