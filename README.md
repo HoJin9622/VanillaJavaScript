@@ -38,6 +38,26 @@ filter는 array의 모든 아이템을 통해 함수를 실행하고, true인 �
 
 object.forEach(function) 을 실행하면 object에 대한 모든 것에 대해 function을 실행한다.
 
+# Math 함수
+
+    Math.random() * value
+
+value 만큼의 값을 랜덤으로 준다.
+
+    Math.floor(value)
+
+소수점 나머지를 버림.
+
+    Math.ceiling(value)
+
+소수점 나머지 올림.
+
+# 태그에 클래스 추가
+
+    tag.classList.add("value");
+
+원하는 tag에 value 클래스를 추가한다.
+
 # CSS
 
 transition: color 0.5s ease-in-out; - 컬러가 변경될때 0.5초 동안 서서히 바뀜
