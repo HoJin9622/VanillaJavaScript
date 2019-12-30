@@ -67,6 +67,18 @@ value 만큼의 값을 랜덤으로 준다.
 
 객체의 필드와 값의 이름이 같으면 위와 같이 작성 가능
 
+# fetch
+
+    fetch(`data link`);
+
+fetch() 안에 가져올 data가 들어가면된다.
+
+앞에 https:// 를 넣어주고 따옴표가 아닌 `` 를 사용한다.
+
+# fetch().then
+
+then은 데이터가 완전히 넘어온 후에 호출된다.
+
 # CSS
 
 transition: color 0.5s ease-in-out; - 컬러가 변경될때 0.5초 동안 서서히 바뀜
