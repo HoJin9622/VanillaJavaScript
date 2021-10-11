@@ -1,9 +1,11 @@
-const daysOfWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+const player = {
+  name: 'hojin',
+  points: 10,
+  fat: true,
+}
+console.log(player)
+console.log(player['name'])
 
-// Get Item from Array
-console.log(daysOfWeek[4])
-
-// Add one more day to the array
-daysOfWeek.push('sun')
-
-console.log(daysOfWeek)
+player.lastName = 'lee'
+player.points = 15
+console.log(player)
